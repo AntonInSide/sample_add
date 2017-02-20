@@ -1,0 +1,111 @@
+@import "bootstrap";
+
+/* mixins, variables, etc. */
+
+$lightGrayMedium: #eaeaea;
+
+/* Universal style */
+
+html {
+	overflow-y: scroll;
+}
+
+body {
+	padding-top: 60px;
+}
+
+section {
+	overflow: auto;
+}
+
+textarea {
+	resize: vertical;
+}
+
+.center {
+	text-align: center;
+	h1 {
+	margin-bottom: 10px;
+	}
+}
+
+
+
+.navbar-inverse {
+    background-color: #F8F8F8;
+    border-color: #E3E7E9;
+}
+
+/* Typography*/
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1;
+}
+
+h1 {
+	font-size: 3em;			/* Шрифт (300% родительского шрифта) */
+	letter-spacing: -2px;	/* Пространство между текстовыми блоками */
+	margin-bottom: 30px;
+	text-align: center;		/* Выровнять текст по центру */
+}
+
+h2 {
+	font-size: 1.2em;		/* Шрифт (120% родительского шрифта) */
+	letter-spacing: -1px;	/* Пространство между текстовыми блоками */
+	margin-bottom: 30px;
+	text-align: center;		/* Выровнять текст по центру */
+	font-weight: normal; 	/* Жирность шрифта */
+	color: $grayLight;
+}
+
+p {
+	font-size: 1.1em;		/* Шрифт(110%...) */
+	line-height: 1.7em;		/* Высота шрифта 170% от шрифта */
+}
+
+/* Header */
+
+#logo { /* CSS id*/
+	float: left;
+	margin-right: 10px;
+	font-size: 1.7em;
+	color: wite;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	padding-top: 9px;
+	font-weight: bold;
+	line-height: 1;
+	&:hover {
+	color: wite;
+	text-decoration: none;
+	}
+}
+
+
+
+/* Footer */
+
+footer {
+	margin-top: 45px;
+	padding-top: 5px;
+	border-top: 1px solid $lightGrayMedium;
+	color: $grayLight;
+	a {
+	color: #555;
+	}
+	small {
+	float: left;
+	}
+	ul{
+	float: right;
+	list-style: none;
+	li {
+	float: left;
+	margin-left: 10px;
+	}
+	}
+}
+
+
+
+
