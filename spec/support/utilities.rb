@@ -20,3 +20,9 @@ RSpec::Matchers.define :have_error_message do |message|
 		it {should have_error_message('Invalid')}
 	end
 end
+def valid_inf
+	fill_in "Name",         with: "Example User"
+    fill_in "Email",        with: "user@example.com"
+    fill_in "Password",     with: "foobar"
+    fill_in "Confirmation", with: "foobar"
+end
