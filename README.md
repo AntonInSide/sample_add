@@ -1,5 +1,5 @@
-# Перевод Ruby on Rails Tutorial: пример приложения
+# Практическое задание для RubyGarage
 
 Это пример приложения для
-[*Ruby on Rails Tutorial*](http://railstutorial.org/)
-by [Майкл Хартл](http://michaelhartl.com/).
+[*Ruby Garage*](https://rubygarage.com.ua/)
+by Belov Anton.
